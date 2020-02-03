@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <style>
+        #status {
+            z-index: 1;
+            font-size: 30px;
+        }
+        
+        #status1 img {
+            height: 100px;
+            margin: 50px;
+        }
+    </style>
+    <script type="text/javascript">
+        function countdown(secs, elem) {
+            var element = document.getElementById(elem);
+            element.innerHTML = secs;
+            if (secs < 1) {
+                clearTimeout(timer);
+                element.style.display = none;
+                element.innerHTML += '<a href="#">Click here now</a>';
+            }
+            secs--;
+            var timer = setTimeout('countdown(' + secs + ',"' + elem + '")', 1000);
+        }
+    </script>
+
+</head>
+
+<body>
+    <div id="status1">
+        <img src="clock.png">
+        <div id="status"></div>
+    </div>
+    <button onclick="countdown(60,'status')">Click here
+    </button>
+
+</body>
+
+</html>

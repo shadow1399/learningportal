@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="html_quiz.css">
+</head>
+
+<body>
+
+
+    <h1>HTML & CSS Quiz</h1>
+
+    <div class="quiz_wrapper ">
+        <div class="question" id="questionBox">
+        </div>
+        <div class="options">
+            <ul id="ul">
+                <li id="op1" onclick="button(this)"></li>
+                <li id="op2" onclick="button(this)"></li>
+                <li id="op3" onclick="button(this)"></li>
+                <li id="op4" onclick="button(this)"></li>
+            </ul>
+        </div>
+        <div class="score">
+            <div class="next">
+                <button type="button" onclick="next()" id="button">Next</button>
+            </div>
+            <div class="back">
+                <a href="study_html.html">Go Back to Lesson</a>
+            </div>
+        </div>
+        <div id="status1">
+            <div id="status"></div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="quiz_script.js"></script>
+    <script type="text/javascript">
+        function countdown(secs, elem) {
+            var element = document.getElementById(elem);
+            element.innerHTML = secs;
+            if (secs < 10) {
+                element.innerHTML = "0" + secs;
+            }
+            if (secs < 1) {
+                clearTimeout(timer);
+
+                alert("Time up");
+                element.style.display = "none";
+                location.replace("study_html.html");
+
+            }
+            secs--;
+            var timer = setTimeout('countdown(' + secs + ',"' + elem + '")', 1000);
+
+        }
+        window.onload = countdown(60, 'status');
+    </script>
+
+</body>
+
+</html>

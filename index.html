@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Webathon</title>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="progate_logo.png">
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#tutorials">Tutorials</a>
+            <a href="#about">About</a>
+
+            <a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Log In</a>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <a name="home"></a>
+    <div class="modal1">
+        <div class="main" id="main">
+            <div class="image">
+                <img src="main.png">
+            </div>
+
+            <div class="heading">
+                <p>Learn to code, </p>
+                <p>learn to be creative.</p>
+            </div>
+            <div class="para">
+                <p> Programming is a powerful tool that can change</p>
+                <p>your life.</p>
+                <p>Learn to code with us!</p>
+            </div>
+            <div class="signup">
+                <a href="#" onclick="signup()">Sign up for free!</a>
+            </div>
+        </div>
+        <div class="users">
+            <div class="usedby">
+                <img src="usedby.png">
+                <p>Used by</p>
+                <h1>1,130,000<span>users</span></h1>
+
+            </div>
+            <div class="lessons">
+                <img src="lesson.png">
+                <p>Lessons completed</p>
+                <h1>2,080,000<span>times</span></h1>
+            </div>
+            <div class="country">
+                <img src="country.png">
+                <p>Provided in</p>
+                <h1>100+<span>countries</span></h1>
+            </div>
+        </div>
+        <a name="about"></a>
+        <div class="container">
+            <div class="heading2">
+                <h2>『Progate』</h2>
+                <h2>An online platform to learn programming</h2>
+                <p>Progate is a web service where you can learn programming online.</p>
+                <p>We offer you a fully equipped coding environment to get you started.</p>
+            </div>
+            <div class="slideshow">
+                <div class="mySlides fade">
+                    <img src="slides.png" style="width:100%;height:500px;">
+
+                </div>
+                <div class="mySlides fade">
+                    <img src="web.jpg" style="width:100%;height:500px;">
+
+                </div>
+                <div class="mySlides fade">
+                    <img src="1.png" style="width:100%;height:500px;">
+
+                </div>
+                <div class="mySlides fade">
+                    <img src="slides2.png" style="width:100%;height:500px;">
+
+                </div>
+                <div class="mySlides fade">
+                    <video width="100%" height="500px" autoplay>
+                <source src="practice.mp4" type="video/mp4">
+                </video>
+                </div>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+        <div class="text-container">
+            <div class="heading2">
+                <h2>Focus on Lesson Quality</h2>
+                <p>We care greatly for the quality of our lessons at Progate. We are commited to the following mission
+                </p>
+                <p>and make two promises to people in order to achieve it.</p>
+            </div>
+            <div class="message">
+                Make it possible for anyone to learn on their own, even beginners
+            </div>
+            <div class="message2">
+                <div class="practical">
+                    <h3>Practical</h3>
+                    <p>Learn the skills required int the real world.</p>
+                    <p>You can create a product in our lessons that will help</p>
+                    <p>you become an independent engineer.</p>
+                </div>
+                <div class="understand">
+                    <h3>Easy to Understand</h3>
+                    <p>Learning is fun when you understand the content.</p>
+                    <p>Our clear, interactive lessons motivate people to</p>
+                    <p>learn.</p>
+                </div>
+            </div>
+
+        </div>
+        <a name="tutorials"></a>
+        <div class="lessons-container">
+            <div class="heading2">
+                <h2>Tutorials</h2>
+                <p>Find the right tutorial for your path.</p>
+            </div>
+            <div class="lessons">
+                <div class="lesson1">
+                    <h4>HTML & CSS</h4>
+                    <img src="html-study.png">
+                    <a href="study_html.html">See details</a>
+                </div>
+                <div class="lesson1">
+                    <h4>JavaScript</h4>
+                    <img src="js.png" style="width:220px">
+                    <a href="#" onclick="upgrade()">See details</a>
+                </div>
+                <div class="lesson1">
+                    <h4>PHP</h4>
+                    <img src="php.png">
+                    <a href="#" onclick="upgrade()">See details</a>
+                </div>
+                <div class="lesson1">
+                    <h4>jQuery</h4>
+                    <img src="jquery-study.png">
+                    <a href="#" onclick="upgrade()">See details</a>
+                </div>
+                <div class="lesson1">
+                    <h4>Java</h4>
+                    <img src="java.png">
+                    <a href="#" onclick="upgrade()">See details</a>
+                </div>
+                <div class="lesson1">
+                    <h4>Python</h4>
+                    <img src="pytthon.png">
+                    <a href="#" onclick="upgrade()">See details</a>
+                </div>
+                <div class="lesson1">
+                    <h4>SQL</h4>
+                    <img src="sql.png">
+                    <a href="#" onclick="upgrade()">See details</a>
+                </div>
+            </div>
+        </div>
+        <div class="review">
+            <div class="parallax">
+
+
+                <div class="parallax-text">
+                    <h2>Bringing creativity to everyone,everywhere</h2>
+                    <p>LEARN TO CODE, LEARN TO BE CREATIVE.</p>
+                </div>
+                <div class="text2">
+                    <p>To provide lessons that even <span>beginners</span> can understand and continue.<br> To help people acquire real-world skills and become <span>creators</span>.</p>
+                    <p>We are making Progate to help you use programmming<br> to make your dreams a reality.</p>
+                    <p>Want to take a step into the world of programming? We'll be your guide.</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="certificates">
+            <div class="certificate-container">
+                <h2>Earn certificates</h2>
+                <p>You will be able to download a Progate Certificate after completing each lesson.<br> Share your achievement on LinkedIn, Facebook and more!
+                </p>
+            </div>
+            <div class="certificate-image">
+                <img src="certificate.png">
+            </div>
+        </div>
+        <div class="call">
+            <div class="heading3">
+                <h3>Start now!</h3>
+                <h3>The exciting world of programming awaits you.</h3>
+            </div>
+            <div class="signup1">
+                <a href="#" onclick="signup()">Sign up for free!</a>
+            </div>
+        </div>
+        <div class="modal" id="id01">
+            <form action="" name="myform" class="modal-content animate">
+                <div>
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close">&times;</span>
+
+                </div>
+                <h2>Log In</h2>
+                <input type="text" name="email" placeholder="Emailid" autocomplete="off"><span id="emailerror"></span>
+                <input type="password" name="password" placeholder="Password" autocomplete="off"><br><br><span id="passworderror"></span>
+                <input type="Submit" value="Log In"><br>
+
+                <br>
+                <div id="container2">
+                    <a href="reset.html" style="margin-right:0px; font-size:13px; font-family:Tahoma, Geneva, sans-serif;">Reset Password</a>
+                    <a href="forgot.html" style="margin-right:0px; font-size:13px; font-family:Tahoma, Geneva, sans-serif;">&nbsp;&nbsp;&nbsp;&nbsp; Forgot Password</a>
+                </div><br><br><br><br><br><br> Don't have account?<a href="#" onclick="signup()" style="width:auto;color:yellow;text-decoration:none;">  Sign Up</a>
+
+            </form>
+        </div>
+        <div class="modal" id="id02">
+            <form action="#" name="myform" class="modal-content animate">
+                <div>
+                    <span onclick="document.getElementById('id02').style.display='none'" class="close">&times;</span>
+
+                </div>
+
+                <h2 style="color:white;">Sign Up</h2>
+                <input type="text" name="user1" placeholder="First name" autocomplete="off"><br><br><span id="user1error" style="color:red;"></span>
+                <input type="text" name="user" placeholder="Last name" autocomplete="off"><br><br><span id="usererror" style="color:red;"></span>
+                <input type="password" name="pass" placeholder="password" autocomplete="off"><br><br><span id="passerror" style="color:red;"></span>
+                <input type="password" name="cpass" placeholder="Confirm Password" autocomplete="off"><br><br><span id="cpasserror" style="color:red;"></span>
+                <input type="text" name="email" placeholder="Email address" autocomplete="off"><br><br><span id="emailerror" style="color:red;"></span>
+                <input type="Submit" value="Sign up"><br><br> Already have account?<a href="#" onclick="login()" style="width:auto;text-decoration:none; font-family: 'Play', sans-serif; color:yellow;">&nbsp;Log In</a>
+
+
+
+            </form>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 4000); // Change image every 2 seconds
+        }
+    </script>
+    <script>
+        var modal = document.getElementById('id01');
+        var modal1 = document.getElementsByClassName('modal1');
+        window.onclick = function(event) {
+            if (event.target === modal1) {
+                modal.style.display = "none";
+            }
+
+        }
+    </script>
+    <script>
+        function login() {
+            var log = document.getElementById('id01');
+            var sign = document.getElementById('id02');
+            log.style.display = "block";
+            sign.style.display = "none";
+
+        }
+    </script>
+    <script>
+        function signup() {
+            var login = document.getElementById('id01');
+            var signup = document.getElementById('id02');
+            signup.style.display = "block";
+            login.style.display = "none";
+        }
+    </script>
+    <script>
+        function upgrade() {
+            alert("These lessons are only available for Progate Plus members .Upgrade to Progate Plus to gain access to every lesson");
+        }
+    </script>
+
+</body>
+
+</html>

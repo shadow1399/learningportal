@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Html</title>
+    <link rel="stylesheet" href="study_html.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="heading1">
+            <h1>HTML Introduction</h1>
+        </div>
+
+        <div class="heading2">
+            <h2>What is HTML?</h2>
+            <p>HTML is the standard markup language for creating Web pages.
+            </p>
+            <ul>
+                <li>HTML stands for Hyper Text Markup Language</li>
+                <li>HTML describes the structure of a Web page</li>
+                <li>HTML consists of a series of elements</li>
+                <li>HTML elements tell the browser how to display the content
+                </li>
+                <li>HTML elements are represented by tags
+                </li>
+                <li>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on
+                </li>
+                <li>Browsers do not display the HTML tags, but use them to render the content of the page
+                </li>
+            </ul>
+        </div>
+        <div class="heading2">
+            <h2>A Simple HTML Document</h2>
+        </div>
+        <div class="example">
+            <h3>Example</h3>
+            <div class="code-container">
+                <p><span class="text-blue">&lt;</span>!DOCTYPE html<span class="text-blue">&gt;</span></p>
+                <p><span class="text-blue">&lt;</span>html<span class="text-blue">&gt;</span></p>
+                <p><span class="text-blue">&lt;</span>head<span class="text-blue">&gt;</span></p>
+                <p><span class="text-blue">&lt;</span>title<span class="text-blue">&gt;</span>Page Title<span class="text-blue">&lt;</span>/title<span class="text-blue">&gt;</span></p>
+                <p><span class="text-blue">&lt;</span>/head<span class="text-blue">&gt;</span></p>
+                <p><span class="text-blue">&lt;</span>body<span class="text-blue">&gt;</span></p>
+                <br>
+                <p><span class="text-blue">&lt;</span>h1<span class="text-blue">&gt;</span>My First Heading<span class="text-blue">&lt;</span>/h1<span class="text-blue">&gt;</span></p>
+                <p><span class="text-blue">&lt;</span>p<span class="text-blue">&gt;</span>My first paragraph.<span class="text-blue">&lt;</span>/p<span class="text-blue">&gt;</span></p>
+                <br>
+                <p><span class="text-blue">&lt;</span>/body<span class="text-blue">&gt;</span></p>
+                <p><span class="text-blue">&lt;</span>/html<span class="text-blue">&gt;</span></p>
+
+            </div>
+            <div class="try">
+                <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_intro">Try it Yourself &#8811;</a>
+            </div>
+        </div>
+        <div class="explanation">
+            <h3>Example Explained</h3>
+            <ul>
+                <li>The <span class="text-brown txt">&lt;!DOCTYPE html&gt;</span> declaration defines this document to be HTML5
+                </li>
+                <li>The <span class="text-brown txt">&lt;html&gt;</span> element is the root element of an HTML page
+                </li>
+                <li>The <span class="text-brown txt">&lt;head&gt;</span> element contains meta information about the document
+                </li>
+                <li>The <span class="text-brown txt">&lt;title&gt;</span> element specifies a title for the document
+                </li>
+                <li>The <span class="text-brown txt">&lt;body&gt;</span> element contains the visible page content
+                </li>
+                <li>The <span class="text-brown txt">&lt;h1&gt;</span> element defines a large heading
+                </li>
+                <li>The <span class="text-brown txt">&lt;p&gt;</span> element defines a paragraph
+                </li>
+            </ul>
+        </div>
+        <div class="tags">
+            <div class="tag-wrapper">
+                <h2>HTML Tags</h2>
+                <p>HTML tags are element names surrounded by angle brackets:
+                </p>
+            </div>
+            <div class="tag-container">
+                <p>&lt;tagname&gt;content goes here...&lt;tagname&gt;
+                </p>
+            </div>
+            <div class="text-container">
+                <ul>
+                    <li>HTML tags normally come <span class="bold">in pairs</span> like <span class="text-brown txt">&lt;p&gt;</span> and <span class="text-brown txt">&lt;p&gt;</span>
+                    </li>
+                    <li>The first tag in a pair is the <span class="bold">start tag,</span> the second tag is the <span class="bold">end tag</span>
+                    </li>
+                    <li>The end tag is written like the start tag, but with a <span class="bold">forward slash</span> inserted before the tag name
+                    </li>
+                </ul>
+            </div>
+            <div class="tip">
+                <p><span class="bold">Tip:</span> The start tag is also called the <span class="bold">opening tag,</span> and the end tag the <span class="bold">closing tag.</span> </p>
+            </div>
+        </div>
+        <div class="web-wrapper">
+            <div class="browsers">
+                <h2>Web Browsers</h2>
+                <p>The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read <br>HTML documents and display them.
+                </p>
+                <p>The browser does not display the HTML tags, but uses them to determine<br> how to display the document:
+                </p>
+            </div>
+            <div class="browser-image">
+                <img src="myfirstheading.png">
+            </div>
+        </div>
+        <div class="declaration">
+            <div class="dec-wrapper">
+                <h2>The &lt;!DOCTYPE&gt; Declaration</h2>
+                <p>The <span class="text-brown txt">&lt;!DOCTYPE&gt;</span> declaration represents the document type, and helps browsers to display web pages correctly.
+                </p>
+                <p>It must only appear once, at the top of the page (before any HTML tags).
+                </p>
+                <p>The <span class="text-brown txt">&lt;!DOCTYPE&gt;</span> declaration is not case sensitive.
+                </p>
+                <p>The <span class="text-brown txt">&lt;!DOCTYPE&gt;</span> declaration for HTML5 is:
+                </p>
+            </div>
+            <div class="dec-container">
+                <div class="dec-text">
+                    <p><span class="text-blue">&lt</span><span class="text-brown">!DOCTYPE</span> <span class="text-red">html</span><span class="text-blue">&gt;</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="heading1 top">
+            <h1>CSS Intoduction</h1>
+        </div>
+        <div class="heading2">
+            <h2>What is CSS?</h2>
+            <ul>
+                <li>CSS stands for Cascading Style Sheets
+                </li>
+                <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+                </li>
+                <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once
+                </li>
+                <li>External stylesheets are stored in CSS files
+                </li>
+
+            </ul>
+        </div>
+        <div class="heading2 bord">
+            <h2>Why Use CSS?</h2>
+            <p>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.
+
+            </p>
+        </div>
+        <div class="heading2 bord">
+            <h2>CSS Saves a Lot of Work!</h2>
+            <p>The style definitions are normally saved in external .css files.
+            </p>
+            <p>With an external stylesheet file, you can change the look of an entire website by changing just one file!
+            </p>
+        </div>
+        <div class="heading2">
+            <h2>CSS Syntax</h2>
+            <p>A CSS rule-set consists of a selector and a declaration block:
+            </p>
+            <img src="selector.gif">
+            <p>The selector points to the HTML element you want to style.
+            </p>
+            <p>The declaration block contains one or more declarations separated by semicolons.
+            </p>
+            <p>Each declaration includes a CSS property name and a value, separated by a colon.
+            </p>
+            <p>A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces.
+            </p>
+        </div>
+        <div class="example" style="height:280px;">
+            <h3>Example</h3>
+            <p>In this example all &lt;p&gt; elements will be center-aligned, with a red text color:
+            </p>
+            <div class="code-container">
+                <p><span class="text-brown">p</span> { </p>
+                <p><span class="text-red">color</span>:<span class="text-blue"> red</span>;</p>
+                <p><span class="text-red">text-align</span>:<span class="text-blue"> center</span>;</p>
+                <p>}</p>
+            </div>
+            <div class="try">
+                <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax1">Try it Yourself &#8811;</a>
+            </div>
+        </div>
+        <div class="heading2">
+            <h2>The CSS id Selector</h2>
+            <p>The id selector uses the id attribute of an HTML element to select a specific element.
+            </p>
+            <p>The id of an element is unique within a page, so the id selector is used to select one unique element!
+            </p>
+            <p>To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+            </p>
+        </div>
+        <div class="example" style="height:280px;">
+            <h3>Example</h3>
+            <p>The CSS rule below will be applied to the HTML element with id="para1":
+            </p>
+            <div class="code-container">
+                <p><span class="text-brown">#para1</span> { </p>
+                <p><span class="text-red">color</span>:<span class="text-blue"> red</span>;</p>
+                <p><span class="text-red">text-align</span>:<span class="text-blue"> center</span>;</p>
+                <p>}</p>
+            </div>
+            <div class="try">
+                <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax_id">Try it Yourself &#8811;</a>
+            </div>
+        </div>
+        <div class="tip bord">
+            <p><span class="bold">Note:</span>An id name cannot start with a number!</p>
+        </div>
+        <div class="heading2">
+            <h2>The CSS class Selector</h2>
+            <p>The class selector selects HTML elements with a specific class attribute.
+            </p>
+            <p>To select elements with a specific class, write a period (.) character, followed by the class name.
+            </p>
+        </div>
+        <div class="example" style="height:280px;">
+            <h3>Example</h3>
+            <p>In this example all HTML elements with class="center" will be red and center-aligned:
+            </p>
+            <div class="code-container">
+                <p><span class="text-brown">.center</span> { </p>
+                <p><span class="text-red">color</span>:<span class="text-blue"> red</span>;</p>
+                <p><span class="text-red">text-align</span>:<span class="text-blue"> center</span>;</p>
+                <p>}</p>
+            </div>
+            <div class="try">
+                <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax_class">Try it Yourself &#8811;</a>
+            </div>
+        </div>
+        <div style="padding-top:20px;">
+            <p>You can also specify that only specific HTML elements should be affected by a class.
+            </p>
+        </div>
+        <div class="example" style="height:280px;">
+            <h3>Example</h3>
+            <p>In this example only &lt;p&gt; elements with class="center" will be center-aligned:
+            </p>
+            <div class="code-container">
+                <p><span class="text-brown">p.center</span> { </p>
+                <p><span class="text-red">color</span>:<span class="text-blue"> red</span>;</p>
+                <p><span class="text-red">text-align</span>:<span class="text-blue"> center</span>;</p>
+                <p>}</p>
+            </div>
+            <div class="try">
+                <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax_element_class">Try it Yourself &#8811;</a>
+            </div>
+        </div>
+        <div class="heading2">
+            <h2>The CSS Universal Selector</h2>
+            <p>The universal selector (*) selects all HTML elements on the page.
+            </p>
+        </div>
+        <div class="example" style="height:280px;">
+            <h3>Example</h3>
+            <p>The CSS rule below will affect every HTML element on the page:
+            </p>
+            <div class="code-container">
+                <p><span class="text-brown">*</span> { </p>
+                <p><span class="text-red">color</span>:<span class="text-blue"> red</span>;</p>
+                <p><span class="text-red">text-align</span>:<span class="text-blue"> center</span>;</p>
+                <p>}</p>
+            </div>
+            <div class="try">
+                <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax_universal">Try it Yourself &#8811;</a>
+            </div>
+        </div>
+
+
+        <div class="quiz">
+            <a href="html_quiz.html">Start the Quiz</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
